@@ -1,0 +1,44 @@
+{
+    "name": "prefixaut/phs",
+    "description": "A PHP Wrapper for the speedrun.com-API",
+    "version": "0.1.0",
+    "type": "library",
+    "keywords": [
+      "speedrun",
+      "speedruns",
+      "speedrun.com",
+      "api",
+      "wrapper",
+      "prefixaut"
+    ],
+    "homepage": "http://prefixaut.net",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PreFiXAUT",
+            "email": "me@prefixaut.net"
+        }
+    ],
+    "support": {
+      "email": "me@prefixaut.net",
+      "issues": "https://github.com/prefixaut/phs/issues",
+      "source": "https://github.com/prefixaut/phs"
+    },
+    "require": {
+      "php": "^5.4 || ^7.0",
+      "lib-curl": "*"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "^6.2"
+    },
+    "autoload": {
+         "psr-4": {
+           "PHS\\": "src/"
+         }
+     },
+     "autoload-dev": {
+       "psr-4": {
+         "PHS\\Test\\": "tests/"
+       }
+     }
+}

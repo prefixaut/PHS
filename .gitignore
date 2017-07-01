@@ -1,0 +1,5 @@
+/.git
+/vendor
+client_id.txt
+secret.txt
+*.log
