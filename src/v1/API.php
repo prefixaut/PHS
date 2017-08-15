@@ -163,16 +163,11 @@ class API
             $settings[$opt] = $val;
         }
         
-        var_dump($url);
-        
         $curl = curl_init($url);
         curl_setopt_array($curl, $settings);
         $response = curl_exec($curl);
         $error = curl_errno($curl);
         curl_close($curl);
-        
-        var_dump($error);
-        var_dump($response);
         
         if ($error > 0)
             return false;
