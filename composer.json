@@ -1,7 +1,6 @@
 {
     "name": "prefixaut/phs",
     "description": "A PHP Wrapper for the speedrun.com-API",
-    "version": "0.1.0",
     "type": "library",
     "keywords": [
       "speedrun",
