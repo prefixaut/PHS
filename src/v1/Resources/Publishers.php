@@ -2,10 +2,10 @@
 
 namespace PHS\v1\Resources;
 
-use PHS\v1\Resource;
+use PHS\v1\BaseResource;
 use PHS\v1\API;
 
-class Publishers extends Resource
+class Publishers extends BaseResource
 {
     public function __construct(API $api)
     {

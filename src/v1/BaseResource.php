@@ -4,7 +4,7 @@ namespace PHS\v1;
 
 use PHS\v1\API;
 
-class Resource
+class BaseResource
 {
     protected $api;
     

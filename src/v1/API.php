@@ -2,7 +2,7 @@
 
 namespace PHS\v1;
 
-use PHS\v1\Resource;
+use PHS\v1\BaseResource;
 use PHS\v1\Resources\Categories;
 use PHS\v1\Resources\Developers;
 use PHS\v1\Resources\Engines;
@@ -54,7 +54,7 @@ class API
     
     public function __set($name, $value)
     {
-        if (!is_string($name) || !($name instanceof Resource))
+        if (!is_string($name) || !($name instanceof BaseResource))
             return;
         
         $this->resources[$name] = $value;
